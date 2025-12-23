@@ -4,11 +4,11 @@ I expect that the level of abstraction of our languages will continue to increas
 
 > 我期望语言的抽象程度继续提升。我也期望领域特定语言的数量继续增加。那会是好事一桩。 ---《代码整洁之道》
 
+## 🚀 关于我（前端）
+
 But it will not eliminate code. Indeed, all the specifications written in these higher level and domain-specific language will be code! It will still need to be rigorous, accurate, and so formal and detailed that a machine can understand and execute it. ---《Clean Code》
 
 > 但那终结不了代码。实际上，**在较高层次上用领域特定语言撰写的规约也将是代码**！它也得严谨、精确、规范和详细，好**让机器理解和执行**。 ---《代码整洁之道》
-
-## 🚀 关于我（前端）
 
 ## 🛠️ 技术栈
 
@@ -22,16 +22,15 @@ graph TB
     A --> G[工程化体系]
     A --> H[服务端技术]
     A --> I[实用工具库]
+    A --> J[AI辅助开发]
 ```
 
 ### 🎯 核心语言
 
-| 类别              | 描述                                 | 熟练度 |
-| :---------------- | :----------------------------------- | :----- |
-| HTML5             | 语义化标签、Web Components           | ⭐⭐⭐⭐⭐  |
-| CSS3              | 现代布局（Flexbox/Grid）、动画、变量 | ⭐⭐⭐⭐   |
-| JavaScript (ES6+) | 异步编程、模块化、新特性             | ⭐⭐⭐⭐⭐  |
-| TypeScript        | 类型系统、接口、泛型                 | ⭐⭐⭐⭐⭐  |
+| 类别                         | 描述                 | 熟练度 |
+| :--------------------------- | :------------------- | :----- |
+| HTML5/CSS3/JavaScript (ES6+) |                      | ⭐⭐⭐⭐⭐  |
+| TypeScript                   | 类型系统、接口、泛型 | ⭐⭐⭐⭐⭐  |
 
 ### ⚛️ 前端框架
 
@@ -56,11 +55,10 @@ graph TB
 
 **组件库**
 
-| 类别           | 描述           | 熟练度 |
-| :------------- | :------------- | :----- |
-| Ant Design 4/5 | 企业级UI组件库 | ⭐⭐⭐⭐⭐  |
-| Ant Design Pro | 中后台解决方案 | ⭐⭐⭐⭐   |
-| Bootstrap 5    | 响应式CSS框架  | ⭐⭐⭐⭐⭐  |
+| 类别               | 描述           | 熟练度 |
+| :----------------- | :------------- | :----- |
+| Ant Design 4/5/Pro | 企业级UI组件库 | ⭐⭐⭐⭐⭐  |
+| Bootstrap 5        | 响应式CSS框架  | ⭐⭐⭐⭐⭐  |
 
 **可视化**
 
@@ -72,12 +70,11 @@ graph TB
 
 **CSS**
 
-| 类别         | 描述          | 熟练度 |
-| :----------- | :------------ | :----- |
-| Tailwind CSS | 原子化CSS框架 | ⭐⭐⭐⭐⭐  |
-| Sass/SCSS    | CSS预处理器   | ⭐⭐⭐⭐   |
-| Less         | CSS预处理器   | ⭐⭐⭐⭐⭐  |
-| Css in js    | js            | ⭐⭐⭐⭐⭐  |
+| 类别           | 描述          | 熟练度 |
+| :------------- | :------------ | :----- |
+| Tailwind CSS   | 原子化CSS框架 | ⭐⭐⭐⭐⭐  |
+| Sass/SCSS/Less | CSS预处理器   | ⭐⭐⭐⭐   |
+| css-in-js      |               | ⭐⭐⭐⭐⭐  |
 
 ### 🔗 路由与请求
 
@@ -90,12 +87,12 @@ graph TB
 
 **数据请求**
 
-| 类别      | 描述               | 熟练度 |
-| :-------- | :----------------- | :----- |
-| Axios     | HTTP客户端库       | ⭐⭐⭐⭐⭐  |
-| Request   | Node.js HTTP客户端 | ⭐⭐⭐⭐   |
-| Fetch API | 原生请求API        | ⭐⭐⭐⭐⭐  |
-| Ajax      | 原生请求           | ⭐⭐⭐⭐⭐  |
+| 类别    | 描述               | 熟练度 |
+| :------ | :----------------- | :----- |
+| Axios   | HTTP客户端库       | ⭐⭐⭐⭐⭐  |
+| Request | Node.js HTTP客户端 | ⭐⭐⭐⭐   |
+| Fetch   | 原生请求API        | ⭐⭐⭐⭐⭐  |
+| Ajax    | 原生请求           | ⭐⭐⭐⭐⭐  |
 
 ### 🛠️ 工程化体系
 
@@ -108,12 +105,11 @@ graph TB
 
 **DevOps**
 
-| 类别    | 描述              | 熟练度 |
-| :------ | :---------------- | :----- |
-| Git     | 版本控制          | ⭐⭐⭐⭐⭐  |
-| Github  | 持续集成/持续部署 | ⭐⭐⭐⭐   |
-| Jenkins | 自动化服务器      | ⭐⭐⭐⭐⭐  |
-| Docker  | 容器化部署        | ⭐⭐⭐⭐⭐  |
+| 类别       | 描述              | 熟练度 |
+| :--------- | :---------------- | :----- |
+| Git/Github | 版本控制/持续集成 | ⭐⭐⭐⭐⭐  |
+| Jenkins    | 自动化服务器      | ⭐⭐⭐⭐⭐  |
+| Docker     | 容器化部署        | ⭐⭐⭐⭐⭐  |
 
 **代码质量**
 
@@ -127,10 +123,10 @@ graph TB
 
 **运行时与框架**
 
-| 类别     | 描述              | 熟练度 |
-| :------- | :---------------- | :----- |
-| Node.js  | avaScript运行时   | ⭐⭐⭐⭐⭐  |
-| NestJS - | 企业级Node.js框架 | ⭐⭐⭐⭐   |
+| 类别    | 描述              | 熟练度 |
+| :------ | :---------------- | :----- |
+| Node.js | avaScript运行时   | ⭐⭐⭐⭐⭐  |
+| NestJS  | 企业级Node.js框架 | ⭐⭐⭐⭐   |
 
 **数据库**
 
@@ -146,7 +142,13 @@ graph TB
 | Lodash | 语义化标签、Web Components           | ⭐⭐⭐⭐⭐  |
 | jQuery | 现代布局（Flexbox/Grid）、动画、变量 | ⭐⭐⭐⭐   |
 
-## 亮点项目
+### 🤖 AI辅助开发
+
+| 类别    | 描述           | 熟练度 |
+| :------ | :------------- | :----- |
+| Copilot | Github Copilot | ⭐⭐⭐⭐⭐  |
+
+## 📁 亮点项目
 
 ### **🔗 企业级中后台解决方案**
 
